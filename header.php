@@ -1,6 +1,5 @@
-<!DOCTYPE HTML>
-<!-- ######################     Page header   ############################## -->
 
-    <header>
-        <h1>Assignment 1.3: Making The World a Better Place</h1>              
-    </header>
+<!-- ######################     Page header   ############################## -->
+<header>
+    <h1>main title for SITE</h1>
+</header>
