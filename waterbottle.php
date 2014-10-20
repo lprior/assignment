@@ -3,8 +3,6 @@
     <body>
         <?php
         include("top.php");
-        include("header.php");
-        include("nav.php");
         ?>
         <article id="main">
             <p>
@@ -23,7 +21,7 @@
         <aside id="other">
             <p><figure class="img-right small">
                 <a href="http://www.homestoreandmore.ie/content/ebiz/hsandm/invt/054346/054346_large.jpg">
-                    <img class="small" alt="Lynden Prior" src="waterbottle.jpg"></a>
+                    <img class="small" alt="Lynden Prior" src="data/waterbottle.jpg"></a>
                 <figcaption>A common water bottle seen on campus. Click to view larger image.</figcaption>
             </figure>
         </aside>

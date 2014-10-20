@@ -5,8 +5,26 @@ to understand the comments like 900px / 960px
 
 */
 /*****************     main layout section             ************************/
+
+figure.img-right {
+    border: thin solid black;
+    float: right;
+    background-color: black;
+}
+
+.small {
+    width: 500px;
+}
+
+figcaption {
+    color: white;
+    font-style: oblique;
+    text-align: center;
+    font-size: 11pt;
+}
+
 body{
-    margin: 36px auto;
+    margin: 20px auto;
     width: 90%;
 }
 
@@ -19,17 +37,41 @@ body{
 
 #main{
     float: left;
-    width: 62.8888889%; /* 566px / 900px */
+    width: 716px; /* 566px / 900px */
 }
 
 #other{
     float: right;
-    width: 36.7777778%; /* 331px / 900px */
+    width: 500px; /* 331px / 900px */
+    margin: 20px;
+
 }
+
+
+ol.photos{
+    margin-left: 1em;
+}
+ol.photos li{
+    list-style-type: none;
+    display: inline;
+}
+
+table {
+    text-align: center;
+    alignment-adjust: central;
+    margin-left: 6em;
+    border-style: solid;
+}
+
 
 /*****************     header section             *****************************/
 header h1 {
     padding: 0.8em 5.33333333%;  /* 48px / 900px */
+    text-align: center;
+    font-family: "arial black";
+    padding-top: 0em;
+    background-image: url("data/Panorama 2.JPG");
+    border: solid black;
 }
 
 
@@ -37,41 +79,59 @@ header h1 {
 nav ol {
     padding-left: 5.33333333%;  /* 48px / 900px */
 }
+
 nav ol li{
-    display: inline-block;
     list-style-type: none;
-    padding-right: 3em;
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    font-size: 14pt;
 }
 
+nav {
+    background-color: lightgreen;
+    border: solid black;
+}
 
 /*****************     article section             ****************************/
-/* un comment and see what happens */
-/*
+
 article{
-    height: 200px;
-    overflow: auto;
+    width: 716px;
+    overflow: visible;
 }
-*/
 
 article h1, article p, article table{
-    padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
+    padding: 20px 20px;
 }
 
+article h2{
+    display: block;
+    font-size: 14pt;
+    font-style: italic;
+    text-align: center;
+    padding-left: 25px;
+}
 
 /*****************     aside section              *****************************/
 aside {
-    margin: 0 auto;
-    width: 69.7885196%; /* 231px / 331px */
+    float: right;
+    width: 500px;
 }
-aside h2, aside p{
-    padding: .2em 8.48056537% .2em 8.48056537%; /* 48px / 566px */
-}
+
 
 
 /*****************     footer section              ****************************/
 footer{
-    clear: both;
-    padding: 0.8em 5.33333333%;  /* 48px / 900px */
+    clear: both;  /* 48px / 900px */
+    display: inline-block;
+    width: 93.75%;
+}
+footer ol li{
+    list-style-type: none;
+    display: inline-block;
+    width: 29%;
+    text-align: center;
+    font-size: 12pt;
 }
 
 /*****************     form section                ****************************/

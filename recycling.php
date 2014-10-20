@@ -3,13 +3,11 @@
     <body>
         <?php
         include("top.php");
-        include("header.php");
-        include("nav.php");
         ?>
         <aside id="other">
             <p><figure class="img-right small">
                 <a href="http://www.clker.com/cliparts/j/I/z/n/y/X/recycling-symbol-outline-hi.png">
-                    <img class="small" alt="Recycle" src="animate.gif"></a>
+                    <img class="small" alt="Recycle" src="data/animate.gif"></a>
                 <figcaption>Reduce, Reuse, Recycle. Click to view source of images for Animation.</figcaption>
             </figure>
         </aside>

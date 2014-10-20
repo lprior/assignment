@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Mark me wrong</title>
+        <title>Assignment 1.3: Making The World a Better Place - Home Page</title>
         <meta charset="utf-8">
-        <meta name="author" content="Mark me wrong">
-        <meta name="description" content="Mark me wrong for not changing this">
+        <meta name="author" content="Lynden Prior">
+        <meta name="description" content="A site displaying my projects and assignments for CS008: HTML and CSS">
 
+        <!-- see: http://webdesign.tutsplus.com/tutorials/htmlcss-tutorials/quick-tip-dont-forget-the-viewport-meta-tag/ -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--[if lt IE 9]>
-        <script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
+                <script src="//html5shim.googlecode.com/sin/trunk/html5.js"></script>
         <![endif]-->
 
         <link rel="stylesheet" href="style.css" type="text/css" media="screen">

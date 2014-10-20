@@ -3,13 +3,11 @@
     <body>
         <?php
         include("top.php");
-        include("header.php");
-        include("nav.php");
         ?>
         <aside id="other">
             <p><figure class="img-right small">
                 <a href="http://alumni.uvm.edu/uploads/2010CampusMapSpringCOLOR.jpg"></a>
-                <img class="small" alt="Map of UVM Campus" src="map.jpg" usemap="#map.jpg">
+                <img class="small" alt="Map of UVM Campus" src="data/map.jpg" usemap="#map.jpg">
                 <figcaption>This is a map of the UVM campus. Click on the different campuses to see pictures.</figcaption>
             </figure>
         </aside>
